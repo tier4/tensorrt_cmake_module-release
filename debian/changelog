@@ -1,0 +1,9 @@
+ros-galactic-tensorrt-cmake-module (0.0.1-1focal) focal; urgency=high
+
+  * ci: add build and test action
+  * initial commit
+  * Contributors: wep21
+
+ -- Daisuke Nishimatsu <daisuke.nishimatsu@tier4.jp>  Tue, 18 Jan 2022 15:00:00 -0000
+
+

@@ -1,0 +1,12 @@
+Source: ros-galactic-tensorrt-cmake-module
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishimatsu <daisuke.nishimatsu@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-cmake-copyright, ros-galactic-ament-cmake-lint-cmake, ros-galactic-ament-cmake-xmllint, ros-galactic-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-galactic-tensorrt-cmake-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-ros-workspace
+Description: Exports a CMake module to find TensorRT.
