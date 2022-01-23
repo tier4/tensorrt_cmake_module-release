@@ -1,0 +1,12 @@
+Source: ros-rolling-tensorrt-cmake-module
+Section: misc
+Priority: optional
+Maintainer: Daisuke Nishimatsu <daisuke.nishimatsu@tier4.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-copyright, ros-rolling-ament-cmake-lint-cmake, ros-rolling-ament-cmake-xmllint, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-tensorrt-cmake-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ros-workspace
+Description: Exports a CMake module to find TensorRT.
